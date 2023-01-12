@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-color: white;
 }
 
 .header{
@@ -132,7 +133,7 @@ body{
     transition: .5s all;
     text-align: center;
     top: -1200px;
-    left: 24%;
+    left: 22%;
 }
 
 .popup input{
@@ -174,4 +175,33 @@ body{
     right: 7px;
     transform: rotate(45deg);
     cursor: pointer;
+}
+
+.zero-type{
+    text-align: center;
+    top: -100px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    position: relative;
+    margin-top: 6%;
+}
+
+.first-type{
+    height: 180px;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    box-shadow: 2px 2px 2px 4px black;
+}
+
+.first-type h1{
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    padding-left: 12%;
+    padding-top: 2%;
+    font-size: 50px;
+
 }
