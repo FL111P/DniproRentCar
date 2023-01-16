@@ -124,31 +124,36 @@ body{
 
 .popup{
     display: block;
-    width: 50%;
+    width: 600px;
     background-color: black;
     border-radius: 25px;
     color: white;
     padding: 30px;
     position: relative;
     transition: .5s all;
-    text-align: center;
     top: -1200px;
-    left: 22%;
+    left: -5%;
+}
+
+.popup span{
+    float: left;
+    margin: 20px 0;
+    font-size: 40;
 }
 
 .popup input{
     display: block;
-    height: 35px;
+    height: 50px;
     width: 100%;
     border: none;
-    margin: 10px 0;
+    margin: 20px 0;
     border-radius: 5px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
 }
 
 #modal:checked ~ .popup{
-    top: -400px;
+    top: -200px;
 }
 
 #modal{
@@ -186,22 +191,68 @@ body{
     margin-top: 6%;
 }
 
-.first-type{
-    height: 180px;
+/* .f-href{
+    height: 100px;
     width: 75%;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 4%;
     box-shadow: 2px 2px 2px 4px black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    padding: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 85px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
 }
 
-.first-type h1{
-    font-family: 'Josefin Sans', sans-serif;
-    float: left;
-    padding-left: 12%;
-    padding-top: 2%;
-    font-size: 50px;
+.f-img{
+    float: right;
+    position: absolute;
+    top: -100%;
+} 
 
+.first-type{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.first-type{
+    background-color: white;
+    height: 100px;
+    width: 75%;
+    box-shadow: 2px 2px 2px 4px black;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.f-text{
+    float: left;
+    font-size: 60px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    margin-top: 1.5%;
+    margin-left: 4%;
+}
+
+.f-img{
+    float: right;
+    width: 18%;
+    margin-right: 10%;
+    margin-top: 1.5%;
+}
+
+.f-href{
+    height: 100px;
+    width: 100%;
+    display: block;
 }
